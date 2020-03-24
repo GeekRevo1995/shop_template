@@ -1,0 +1,104 @@
+
+#section-2 .thumbnail
+{
+    height: 510px;
+}
+.thumbnail
+{
+    height: 422px;
+}
+.thumbnail > .cercle
+{
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: darkseagreen;
+    top: 15px;
+    left: 15px;
+}
+
+.thumbnail > .cercle > p
+{
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 8px
+}
+
+.thumbnail > code
+{
+    padding: 2px 3px;
+    position: relative;
+    font-size: 90%;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 100px;
+    top: 10;
+    color: red;
+}
+.thumbnail .star
+{
+   text-align: center;
+    margin-right: 85px;
+    margin-top: -15px;
+}
+.content p {
+   text-align: center;
+    font-family: Arial serif;
+    color: rgb(18, 64,100);
+    margin-bottom: 0px;
+    margin-top: -11px;
+}
+.thumbnail > button
+{
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 2em;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-weight: 700;
+    position: relative;
+    left: 81px;
+    bottom: 25px;
+    //transition: all .2s ease-in-out;
+}
+.thumbnail > button:hover
+{
+    background-color: red;
+    color: white;
+    border-color: white;
+    border-radius:0;
+}
+
+.tabs > h3 
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    bottom: 24px;
+     position: relative;
+}
+.tabs > hr
+{
+    position: relative;
+    width:10%;
+    bottom:33px;
+    margin: 0 auto;
+}
+.khtayt3
+{
+     width: 20px;
+    height: 2px;
+    bottom: 35px;
+    border: 2px solid #0089FF;
+    position: relative;
+    margin: 0 auto;
+}

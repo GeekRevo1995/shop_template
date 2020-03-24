@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Project Shop</title>
+     <meta charset="utf-8" />
+
+     <!-- declaration du bebliothique -->
+      <link rel="icon" href="img/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+     <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+     <link rel=stylesheet href="StyleSheet/header.css" />
+
+     <!-- categorie -->
+
+     <link rel="stylesheet" href="StyleSheet/Categorie-style/style.css" />
+     <link rel="stylesheet" href="StyleSheet/colection1.css" />
+     <link rel="stylesheet" href="slider/style.css" />
+     <script src="js/prefixfree.js"></script>
+
+     <!-- testemonials -->
+
+     <script src="js/Categorie-js/modernizr.custom.63321.js"></script>
+     <link rel="stylesheet" href="flexslider/css/flexslider.css"/>
+     <link rel="stylesheet" href="flexslider/css/styles.css"/>
+     <link rel="stylesheet" href="StyleSheet/tabs.css" />
+
+     <!-- tab collection ^^ -->
+
+        <link rel="stylesheet" type="text/css" href="tab-collection/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="tab-collection/css/component.css" />
+
+
+<!-----------------
+script load page
+--------------------->
+   <script type="text/javascript">
+      $(window).load(function()
+           { 
+          $(".sk-cube-grid").fadeOut(5000,
+            function()
+              {
+                 $(this).parent().fadeOut(100,
+                   function()
+                     {
+                      $(".load_overlow").remove(); 
+                     }
+                );
+              }                                    
+          );            
+        }); 
+       
+    </script> 
+     
+     
+    <!-------------------------4
+        pop up script
+   --------------------------->
+
+       <script type="text/javascript">
+
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+       </script>
+     
+     <script type="text/javascript">
+       $(document).ready(function()
+         {
+            setTimeout(function(){
+                $(".flexbox").css({"display": "block"});
+                $("body").css({"overflow": "hidden"});
+                $(".flex-shadow").css({"visibility": "visible"});
+            },15000);
+           
+          $(".close").click(function()
+            {
+                $(".flexbox").css({"display":"none"});
+                $(".flex-shadow").css({"visibility": "hidden"});
+               $("body").css({"overflow": "visible"});
+            })   
+         });
+     </script>
+
+ </head>
+
+<body>
+
+<header>
+<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-brand" href="#"><img id="logo" src="img/logo.PNG" width="120px" /></a>
+    </div>
+    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a><i class="fa fa-search"></i></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#"> Mode</a></li>
+        <li><a href="#">Numérique</a></li>
+        <li><a href="#">Meubles</a></li>
+       <li> <a href="#"> Artisanat traditionnel</a></li>
+      </ul>
+         <ul class="nav navbar-nav" id="carte">
+          <li><a href="Login.html">Login |</a></li>
+          <li><a href="#">Carte /$0.00 <i class="fa fa-shopping-cart" style="font-size:20px;color;color:#3396BB"></i></a></li>
+     <li class="dropdown">
+    <a href="" dropdown-toggle""  data-toggle="dropdown"> Langue
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="Francais-Version.html">Francais</a></li>
+      <li><a href="Englais-Vesion.html">Englais</a></li>
+    </ul>
+</li>
+        </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbo">
+
+    <div class="container-video">
+        	<video autoplay="" loop="" muted="">
+				<source src="home_hero.mp4" type="video/mp4">
+			</video>
+    </div>
+
+   <div class="speaker"></div>
+<audio id="player" autoplay="" loop="" volum="50">
+    <source src="Video_Overlay_Tiffany_Co.mp3" type="audio/mp3"/>
+</audio>
+</div>
+
+<div class="container-content">
+   <center>
+    <h3 class="alt-font">
+Il a enfin commencé ...</h3>
+    <h1 class="h-large">VENTE ÉNORME</h1>
+    <h1 class="h-min">JUSQU'À 70% OFF</h1>
+    <button type="button" class="btn btn-default">HOMMES SHOP
+    </button>
+       <button type="button" class="btn btn-default">SHOP FEMME
+       </button>
+    <button type="button" class="btn btn-default">Tout magasiner</button>
+    </center>
+</div>
+
+
+        <div class="row" id="row1">
+          <div class="col-md-4">
+            <a href="#">
+            <div class="thumb">
+              <img src="img/img6.jpg"  class="img-responsive"/>
+                <h3>À propos de nous</h3>
+                <span class="ligne"></span>
+            </div>
+              </a>
+          </div>
+         <div class="col-md-4">
+           <a href="#">
+            <div class="thumb">
+              <img src="img/img5.jpg" class="img-responsive"/>
+                <h3> Pour hommes</h3>
+                <span class="ligne"></span>
+
+            </div>
+           </a>
+         </div>
+        <div class="col-md-4">
+           <a href="#">
+            <div class="thumb">
+              <img src="img/img7.jpg"  class="img-responsive"/>
+                <h3> POUR FEMMES</h3>
+                <span class="ligne"></span>
+            </div>
+            </a>
+        </div>
+      </div>
+</header>
+
+<section class="col-1">
+<div class="prod">
+  <div class="ligne1"></div>
+    <div class="ligne2"></div>
+    <h2> PRODUITS EN VEDETTE DE LA SEMAINE </h2>
+</div>
+    <div class="row" id="row2">
+      <div class="col-md-3">
+        <div class="thumb1" id="thumb">
+            <a href="#">  <p> Aperçu </p> </a>
+           <a href="#" id="tooltip" data-toggle="tooltip"
+              data-placement="top" title="Limited">.
+             <i class="fa fa-heart" id="heart"></i>
+           </a>
+        </div>
+          <div class="thumb-content">
+            <p class="titre"> Homme </p>
+            <div class="ligne3"></div>
+               <p class="name">SS Crew California Sub River Island</p>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+              <div class="prix1"> $ 19.00 <label class="lbl1"> 15.00 $  </label>
+            </div>
+          </div>
+        </div>
+       <div class="col-md-3">
+        <div class="thumb1" id="thumb1">
+           <a href="#">  <p> Aperçu </p> </a>
+           <a href="#" id="tooltip" data-toggle="tooltip"
+              data-placement="top" title="Limited">.
+             <i class="fa fa-heart" id="heart"></i>
+           </a>
+        </div>
+           <div class="thumb-content">
+            <p class="titre"> Homme </p>
+            <div class="ligne3"></div>
+               <p class="name">SS Crew California Sub River Island</p>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+               <div class="prix1"> $ 25.00 <label class="lbl1"> 50.00 $  </label>
+            </div>
+          </div>
+      </div>
+        <div class="col-md-3">
+        <div class="thumb1" id="thumb2">
+           <a href="#">  <p> Quik View </p> </a>
+           <a href="#" id="tooltip" data-toggle="tooltip"
+              data-placement="top" title="Limited">.
+             <i class="fa fa-heart" id="heart"></i>
+           </a>
+        </div>
+            <div class="thumb-content">
+            <p class="titre"> Femme </p>
+            <div class="ligne3"></div>
+               <p class="name">SS Crew California Sub River Island</p>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+                <div class="prix1"> $ 70.00 <label class="lbl1"> 90.00 $  </label>
+            </div>
+          </div>
+      </div>
+     <div class="col-md-3">
+           <div class="thumb1" id="thumb3">
+           <a href="#">  <p> Aperçu </p> </a>
+           <a href="#" id="tooltip" data-toggle="tooltip"
+              data-placement="top" title="Limited">.
+             <i class="fa fa-heart" id="heart"></i>
+           </a>
+        </div>
+         <div class="thumb-content">
+            <p class="titre"> Femme </p>
+            <div class="ligne3"></div>
+               <p class="name">SS Crew California Sub River Island</p>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+             <div class="prix1"> $ 99.00 <label class="lbl1"> 100.00 $  </label>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+    <div class="categorie">
+       <div class="lign1"></div>
+       <div class="lign2"></div>
+             <h2 class="catego-title">Découvrez nos catégories</h2>
+    </div>
+
+    		<div class="main">
+				<div id="mi-slider" class="mi-slider">
+					<ul>
+						<li><a href="#"><img src="img/Categorie/1.jpg" alt="img01"><h4>Bottes</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/2.jpg" alt="img02"><h4>Oxfords</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/3.jpg" alt="img03"><h4>Flâneurs</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/4.jpg" alt="img04"><h4>Baskets</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="#"><img src="img/Categorie/5.jpg" alt="img05"><h4>Ceintures</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/6.jpg" alt="img06"><h4>Hats &amp; Caps</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/7.jpg" alt="img07"><h4>Des lunettes de soleil</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/8.jpg" alt="img08"><h4>Echarpes</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="#"><img src="img/Categorie/9.jpg" alt="img09"><h4>Décontractée</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/10.jpg" alt="img10"><h4>Le luxe</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/11.jpg" alt="img11"><h4>Sport</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="#"><img src="img/Categorie/12.jpg" alt="img12"><h4>Carry-Ons</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/13.jpg" alt="img13"><h4>molletons</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/14.jpg" alt="img14"><h4>Sacs pour ordinateurs portables</h4></a></li>
+						<li><a href="#"><img src="img/Categorie/15.jpg" alt="img15"><h4>Porte-documents</h4></a></li>
+					</ul>
+					<nav>
+						<a href="#">Chaussures</a>
+						<a href="#">Accessories</a>
+						<a href="#">Montres</a>
+						<a href="#">Des sacs</a>
+					</nav>
+				</div>
+			</div>
+       <!-- /container -->
+	
+
+
+ <div class="some-content">
+
+   <div class="col-md-3">
+     <div class="icon">
+       <i class="fa fa-thumbs-o-up"></i>
+     </div>
+       <div class="content">
+           <h4> ENVOI GRATUIT POUR TOUTES LES COMMANDES</h4>
+         <p>Obtenez la livraison gratuite sur toutes les commandes de plus de 75 $ et retours gratuits à notre centre de retour au Royaume-Uni! Les articles sont expédiés à partir des États-Unis et arrivera en 5-8 jours. Lorem ipsum. Lorem
+           </p>
+       </div>
+   </div>
+
+   <div class="col-md-3">
+      <div class="icon">
+        <i class="fa fa-diamond"></i>
+      </div>
+        <div class="content">
+        <h4> ENVOI GRATUIT POUR TOUTES LES COMMANDES</h4>
+         <p>Obtenez la livraison gratuite sur toutes les commandes de plus de 75 $ et retours gratuits à notre centre de retour au Royaume-Uni! Les articles sont expédiés à partir des États-Unis et arrivera en 5-8 jours. Lorem ipsum. Lorem
+           </p>
+       </div>
+   </div>
+
+   <div class="col-md-3">
+     <div class="icon">
+       <i class="fa fa-heart-o"></i>
+     </div>
+        <div class="content">
+        <h4> ENVOI GRATUIT POUR TOUTES LES COMMANDES</h4>
+          <p>Obtenez la livraison gratuite sur toutes les commandes de plus de 75 $ et retours gratuits à notre centre de retour au Royaume-Uni! Les articles sont expédiés à partir des États-Unis et arrivera en 5-8 jours. Lorem ipsum. Lorem
+           </p>
+       </div>
+   </div>
+
+ </div>
+
+</section>
+
+
+    <section class="testimonial-slider section-padding text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="flexslider">
+                        <h3>TÉMOIGNAGES</h3>
+                        <hr/>
+                        <div class="khtayt2"></div>
+                        <ul class="slides">
+                            <li>
+                                <div class="avatar"><img src="img/slider-img/img1.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <p>Vrai professionnel, très serviable et dévoué, votre équipe de soutien est fantastique
+                                Peter Finlan, Product Designer.</p>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/slider-img/img2.jpg" alt="Sedna Testimonial Avatar"></div>
+                               <p>Vrai professionnel, très serviable et dévoué, votre équipe de soutien est fantastique
+    Manoela Ilic, Founder @ Codrops.</p>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/slider-img/img3.jpg"></div>
+                                <p>Vrai professionnel, très serviable et dévoué, votre équipe de soutien est fantastique
+Blaz Robar, Pixel Guru</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ <div id="tabs" class="tabs">
+       <h3>Collection</h3>
+       <hr/>
+        <div class="khtayt3"></div>
+				<nav>
+					<ul>
+                        <li><a href="#section-1"><span>Shop</span></a></li>
+						<li><a href="#section-2" class="icon-cup"><span>Glass</span></a></li>
+						<li><a href="#section-3" class="icon-food"><span>Chaussures</span></a></li>
+						<li><a href="#section-4" class="icon-lab"><span>Des sacs</span></a></li>
+						<li><a href="#section-5" class="icon-truck"><span>Anneaux</span></a></li>
+					</ul>
+				</nav>
+				<div class="content">
+					<section id="section-1">
+                       <div class="row">
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/electro/img-korsi.PNG"/><hr/>
+                            <p>Chair</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>27.4 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/electro/television.png"/><hr/>
+                            <p>Television</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>27.4 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                          <img src="tab-collection/img//electro/camera.png"/><hr/>
+                            <p>Camera Canon</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>27.4 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                          <img src="tab-collection/img//electro/foteille.PNG"/><hr/>
+                            <p>Guran mire tuna</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>27.4 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                       </div>
+
+                    </section>
+
+                    	<section id="section-2">
+						    <div class="row">
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/Glass/img1.PNG"/><hr/>
+                            <p>Glass 01</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>9.99 $</code><hr/><br>
+                            <button> Ajouter au panier</button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/Glass/img2.PNG"/><hr/>
+                            <p>Glass 02</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>15.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                          <img src="tab-collection/img/Glass/img3.PNG"/><hr/>
+                            <p>Glass 03</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>10.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                            <img src="tab-collection/img/Glass/img4.PNG"/><hr/>
+                            <p>Glass 04</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>6.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                       </div>
+					</section>
+
+
+					<section id="section-3">
+						    <div class="row">
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/shoes/img1.PNG"/><hr/>
+                            <p>Shoes Men</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>50 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/shoes/img2.PNG"/><hr/>
+                            <p>Shoes Men</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>40 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                          <img src="tab-collection/img/shoes/img3.PNG"/><hr/>
+                            <p>shoes Men</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>15.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                            <img src="tab-collection/img/shoes/img4.PNG"/><hr/>
+                            <p>Shoes Men</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>60.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                       </div>
+					</section>
+					<section id="section-5">
+						 <div class="row">
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/Bags/img1.PNG"/><hr/>
+                            <p>Bag Women</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>50.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/Bags/img2.PNG"/><hr/>
+                            <p>Bag Woemn</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>40.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                          <img src="tab-collection/img/Bags/img3.PNG"/><hr/>
+                            <p>BAg Men</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>15.99 $</code><hr/><br>
+                            <button> Ajouter au panier</button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                            <img src="tab-collection/img/Bags/img4.PNG"/><hr/>
+                            <p>Bag Men</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>60.99 $</code><hr/><br>
+                            <button> Ajouter au panier</button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                       </div>
+					</section>
+
+                    <section id="section-4">
+						 <div class="row">
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/Rings/img1.PNG"/><hr/>
+                            <p>Ring 01</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>11550.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>Sale</p></div>
+                          <img src="tab-collection/img/Rings/img2.PNG"/><hr/>
+                            <p>Ring 02</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>40.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                        <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                          <img src="tab-collection/img/Rings/img3.PNG"/><hr/>
+                            <p>Ring 03</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>15.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                            <div class="col-md-3">
+						<div class="thumbnail">
+                            <div class="cercle"><p>New</p></div>
+                            <img src="tab-collection/img/Rings/img4.PNG"/><hr/>
+                            <p>Ring 04</p>
+                               <div class="star" style="text-align:center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                               </div><br>
+                            <code>60.99 $</code><hr/><br>
+                            <button> Ajouter au panier </button>
+                            <p>172 Days 11:8:27</p>
+                        </div>
+                           </div>
+                       </div>
+					</section>
+				</div><!-- /content -->
+			</div><!-- /tabs -->
+
+ <section class="blog">
+      <h3>DERNIÈRE DE NOTRE BLOG</h3>
+       <hr/>
+        <div class="khtayt-4"></div>
+     <div class="flex-container">
+            <div class="flex-item">
+              <img src="img/Blog-img/img1.PNG">
+              <div class="date">
+                <center>16</center>
+                <p class="nb">Aug</p>
+              </div>
+               <center class="ctr">
+                <b>
+                 Juste un autre poste avec une galerie
+                </b>
+            
+                 <div class="khtayt-4"></div>
+                <p>
+                Ajouter du texte à votre page et essayer les styles de titre et autre formatage
+                </p>
+                </center>
+            </div>
+           <div class="flex-item">
+             <img src="img/Blog-img/img2.PNG">
+               <div class="date">
+                <center>17</center>
+                <p class="nb">Janv</p>
+              </div>
+                <center class="ctr">
+                <b>
+               Juste un autre poste avec une galerie
+                </b>
+            
+                 <div class="khtayt-4"></div>
+                <p>
+                Ajouter du texte à votre page et essayer les styles de titre et autre formatage
+                </p>
+                </center>
+           </div>
+           <div class="flex-item">
+             <img src="img/Blog-img/img3.jpg">
+               <div class="date">
+                <center>30</center>
+                <p class="nb">Dec</p>
+              </div>
+                <center class="ctr">
+                <b>
+                 Juste un autre poste avec une galerie
+                </b>
+            
+                 <div class="khtayt-4"></div>
+                <p>
+                Ajouter du texte à votre page et essayer les styles de titre et autre formatage
+                </p>
+                </center>
+           </div>
+     </div>
+ 
+<ul class="items container-fluid">
+  <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l1.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l2.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l3.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l4.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l5.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l6.jpg" /> 
+  </a> 
+ </li>
+</ul>
+
+ </section>
+
+
+<footer class="footer-style">
+  <div class="footer-paralax">
+    <div class="footer-first">
+     <div class="footer-container">
+       <h3 class="footer-h3">Inscrivez-vous ci-dessous pour début mises à jour</h3>
+    <p class="footer-p">Vous un client, grand ou petit, et que vous souhaitez participer à cette aventure, s'il vous plaît envoyez-nous un e-mail à support@StarMarket.com</p>            
+        <form class="form-inline form-subscribe">
+         <div class="form-group">
+             <input type="text" class="form-control" placeholder="Enter Your E-mail Address">
+     <button type="submit" class="btn btn-default">
+         <i class="fa fa-paper-plane-o"></i>
+             </button>
+         </div>             
+ </form>
+    </div>
+      </div>
+      
+<div class="footer-second">
+<div class="full-container">
+<div class="widget-container">
+ <h3 class="widget-title">Infomation</h3>
+ <div class="widget-body">
+<ul>
+<li><a class="location" href="#">Ista Hay salam 11000 Bettana</a></li>
+ <li><a class="phone" href="#">0200 410-369-3920</a></li>
+ <li><a class="email" href="#">geekrevo03@gmail.com</a></li>
+ <li><a class="mobile" href="#">Hotline: 090 999 8686</a></li>
+</ul>
+ </div>
+</div>
+
+<div class="widget-container">
+ <h3 class="widget-title">COMPAGNIE</h3>
+ <div class="widget-body">
+     <ul>
+         <li><a href="#">à propos de nous</a></li>
+         <li><a href="#">Témoignages</a></li>
+         <li><a href="#">Programme d'affiliation</a></li>
+         <li><a href="#">Terms &amp; Conditions</a></li>
+         <li><a href="#">Contact Us</a></li>
+     </ul>
+ </div>
+</div>
+
+<div class="widget-container">
+ <h3 class="widget-title">mon compte</h3>
+ <div class="widget-body">
+     <ul>
+         <li><a href="#">Mes Ordres</a></li>
+<li><a href="#">Mon bordereaux de crédit</a></li>
+<li><a href="#">Mes adresses</a></li>
+<li><a href="#">Mon Info personnelles</a></li>
+         <li><a href="#">Réductions</a></li>
+     </ul>
+ </div>
+</div>
+
+
+<div class="widget-container">
+ <h3 class="widget-title">AIDER</h3>
+ <div class="widget-body">
+     <ul>
+         <li><a href="#">Payments &amp; My Vouchers</a></li>
+         <li><a href="#">Cartes enregistrées</a></li>
+         <li><a href="#">Livraison gratuite</a></li>
+         <li><a href="#">Annulation &amp; Returns</a></li>
+         <li><a href="#">FAQ &amp; Aider Online</a></li>
+     </ul>
+ </div>
+</div>
+</div>
+<div class="footer-bottom">
+<hr/ class="line">
+<div class="footer-copyright">
+Copyright © 2016 Star Market. All Rights Reserved. Designed by: Ramdane Adam <i class="fa fa-smile-o"></i>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+</footer>
+
+          
+<!-------------------
+Preload Page
+--------------------->
+    
+    <section class="load_overlow">
+      <div class="sk-cube-grid">
+  <div class="sk-cube sk-cube1"></div>
+  <div class="sk-cube sk-cube2"></div>
+  <div class="sk-cube sk-cube3"></div>
+  <div class="sk-cube sk-cube4"></div>
+  <div class="sk-cube sk-cube5"></div>
+  <div class="sk-cube sk-cube6"></div>
+  <div class="sk-cube sk-cube7"></div>
+  <div class="sk-cube sk-cube8"></div>
+  <div class="sk-cube sk-cube9"></div>
+</div>
+    </section>
+    
+    
+    <!--------------------
+ Marketing email
+--------------------->
+<div class="flex-shadow">
+    <div class="flexbox">   
+       <img src="img/img6.jpeg" width="300px" height="400px"/>
+         <button class="close"><i class="fa fa-times"></i></button> 
+          <h3>Signup for our Newsletter!</h3>
+            <hr class="flex-lign"/>
+           <p>Enter your email and we'll send you a coupon with <strong>10% off</strong> your next order. Add any text here</p>
+       
+               <form class="form-inline form-subscribe">
+         <div class="form-group">
+             <input type="text" class="form-control" placeholder="Enter Your E-mail Address">
+     <button type="submit" class="btn btn-default">
+         <i class="fa fa-paper-plane-o"></i>
+             </button>
+         </div>             
+              </form>
+        
+        <button class="sign-up"><i class="fa fa-user"></i> &nbsp;Sign Up !</button>
+    </div> 
+</div>
+    
+
+    
+
+<!--- slider ---->
+    	<script src="js/Categorie-js/jquery.catslider.js"></script>
+		<script>
+			$(function() {
+
+				$( '#mi-slider' ).catslider();
+			});
+		</script>
+    
+<!-- script audio -->
+      <script src="audio_js/script.js"></script>
+
+    <!-- script flex slider -->
+
+        <script src="flexslider/js/jquery.flexslider-min.js"></script>
+        <script src="flexslider/js/scripts.js"></script>
+        <script src="flexslider/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="tab-collection/js/cbpFWTabs.js"></script>
+		<script>
+			new CBPFWTabs( document.getElementById( 'tabs' ) );
+		</script>
+
+</body>
+
+</html>

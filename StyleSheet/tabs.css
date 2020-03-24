@@ -1,0 +1,265 @@
+.collection
+{
+    position: relative;
+    top: 400px;
+}
+
+.container h2
+{
+    text-align: center;
+    font-family: monospace;   
+}
+
+ .container > hr
+{
+    position: relative;
+    width:10%;
+    bottom:40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    top: 0;
+}
+.khtayt-4
+{
+    width: 20px;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog > hr
+{
+    position: relative;
+    width:20%;
+    bottom:40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    top: 0;
+}
+
+.blog > h3
+{
+    text-align: center;
+    font-family: monospace;
+}
+.flex-item > img
+{
+    width: 320px;
+    height: 200px;
+}
+.flex-item
+{
+    width: 320px;
+    height: 200px;
+    margin: 20px;
+}
+.flex-item:hover > .date
+{
+    background-color:  #3b5998;
+}
+.flex-item:hover > .date > p 
+{
+    color: white;
+}
+.flex-item:hover > .date > center
+{
+    color: white;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.date
+{
+    width:50px;
+    height: 50px;
+    border:2px solid #3b5998;
+    position: relative;
+    background: white;
+    bottom: 200px;
+    bottom: 165px;
+    right: 25px;
+}
+.date > center , .nb
+{
+    color:#3b5998;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2px;
+}
+
+.ctr > b
+{
+    position: relative;
+    bottom: 33px;
+    font-size: 17px;
+}
+.ctr > p
+{
+color:#3b5998;
+word-spacing: 0.3em;
+   font-family: serif;
+  position: relative;
+    bottom: 10px;
+    font-weight: 700;
+}
+
+
+/***************
+items owl
+***************/
+
+.items
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+.items > li
+{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.footer-style
+{
+    position: relative;
+    top: 200px;
+}
+.footer-paralax
+{
+    background-image: url(../img/img2.1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+}
+.footer-first
+{
+    background-color: black;
+    height:  300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+}
+.footer-container
+{
+    position: relative;
+    top: 50px;
+}
+.footer-first  .footer-h3 
+{
+    text-align: center;
+    letter-spacing: .1em;
+    color: white;
+    position: relative;
+    top: 25px;
+}
+
+.footer-first  .footer-p
+{
+ text-align: center;
+    letter-spacing: .1em;
+    color: white;
+    margin-top: 55px;
+}
+
+.footer-first .form-inline
+{
+    width: 540px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    line-height: normal;
+    margin-top: 55px;
+}   
+.footer-first .form-control
+{
+    position: absolute;
+   
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    padding-right: 40px;
+    color: #fff;
+}
+
+.footer-first .btn-default
+{
+   position: relative;
+    top: 2px;
+    left: 480px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    color: #fff;
+}
+
+.full-container
+{display: flex;
+justify-content: center;
+margin-right: 100px;}
+
+.footer-second
+{
+    padding: 45px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    height: 360px;
+}
+
+.widget-container
+{margin-left: 80px;}
+
+.footer-second .widget-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.footer-second .widget-body li
+{list-style: none;
+line-height: 2em;
+    
+}
+.footer-second .widget-body li a {
+    color: #999;
+    margin-left: -35px;
+}
+.widget-body li a:before {
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    content: "\f105";
+    margin-right: 15px;
+}
+
+.widget-body li a:hover
+{text-decoration: none;
+color: white}
+
+.line{
+    opacity: 0.3;
+    width: 75%;
+}
+.footer-copyright
+{
+    opacity: 0.8;
+    margin-left: 165px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+

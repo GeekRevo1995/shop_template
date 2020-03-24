@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8"/>
+      <title>Login Page</title>
+      
+      <!-- declaration du bebliothique -->
+      <link rel="icon" href="img/logo-sq1.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+     <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="StyleSheet/header.css"/>
+      <link rel="stylesheet" href="StyleSheet/tabs.css"/>
+  
+    
+    <!-----------------
+script load page
+--------------------->
+   <script type="text/javascript">
+      $(window).load(function()
+           { 
+          $(".sk-cube-grid").fadeOut(5000,
+            function()
+              {
+                 $(this).parent().fadeOut(100,
+                   function()
+                     {
+                      $(".load_overlow").remove(); 
+                     }
+                );
+              }                                    
+          );            
+        });        
+    </script> 
+</head>  
+  <body style="background-color:#F8F7F7 ">
+
+<header>
+     <nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-brand" href="#"><img id="logo" src="img/logo.PNG" width="120px" /></a>
+    </div>
+    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a><i class="fa fa-search"></i></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#"> Mode</a></li>
+        <li><a href="#">Numérique</a></li>
+        <li><a href="#">Meubles</a></li>
+       <li> <a href="#"> Artisanat traditionnel</a></li>
+      </ul>
+         <ul class="nav navbar-nav" id="carte">
+          <li><a href="#">Login |</a></li>
+          <li><a href="#">Carte /$0.00 <i class="fa fa-shopping-cart" style="font-size:20px;color;color:#3396BB"></i></a></li>
+ 
+        </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+      
+      <div class="jumbo-login">
+          <div class="background-img"></div>
+   <div class="inner text-center" style="width: 60%;">
+        <div class="inner-wrap animated fadeInDown start-anim">
+    <a href="#" class="button large facebook-button ">
+        <i class="fa fa-facebook"></i> &nbsp; &nbsp; Login / Register with <strong>Facebook</strong>
+    </a>
+ <p>Add any text here. Or just remove it. Facebook login is an optional plugin.</p>
+          </div>
+    </div>
+      </div>
+      </header>
+    
+<section class="container-login" id="customer_login">
+    <h4> <a href="Francais-Version.html">Home </a> &nbsp; > &nbsp; Authentication</h4> <br/>
+<h3>My Account</h3> 
+    <hr class="hr-login" />
+
+    <div class="flex">
+<div class="login">
+
+<div class="box-authentication">
+    <h3>Create an account</h3>
+    <p>Please enter your email address to create an account.</p>
+    <label for="emmail_register">Email address</label>
+    <form class="form-inline form-subscribe">
+<div class="form-group">
+ <input type="text" class="form-control" placeholder="Enter Your E-mail Address">
+<button type="submit" class="btn btn-default" >
+<i class="fa fa-paper-plane-o"></i>
+ </button>
+</div>             
+</form>
+    <button class="create"><i class="fa fa-user"></i> &nbsp;Create an account</button>
+    </div>
+
+    </div> 
+
+  
+<div class="login">
+
+<div class="box-authentication">
+    <h3>Already registered?</h3>
+    <blockquote for="emmail_register">User Name</blockquote>
+    <form class="form-inline form-subscribe">
+<div class="form-group">
+ <input type="text" class="form-control" placeholder="Enter Your Name">
+<button type="submit" class="btn btn-default" >
+<i class="fa fa-paper-plane-o"></i>
+ </button>
+</div>             
+</form>
+    <br/>
+     <blockquote for="emmail_register1">Password</blockquote>
+    <form class="form-inline form-subscribe">
+<div class="form-group">
+ <input type="text" class="form-control" placeholder="Enter Password">
+<button type="submit" class="btn btn-default" >
+<i class="fa fa-paper-plane-o"></i>
+ </button>
+</div>             
+</form>
+    <button class="create"><i class="fa fa-user"></i> &nbsp;Login</button>
+</div>
+</div>
+    </div> 
+</section>
+    
+    
+<ul class="items container-fluid" style="margin-top:-100px">
+  <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l1.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l2.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l3.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l4.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l5.jpg" /> 
+  </a> 
+ </li>
+      <li>
+  <a href="#" class="owl-item">  
+      <img src="img/l6.jpg" /> 
+  </a> 
+ </li>
+</ul>
+
+ </section>
+
+
+<footer class="footer-style">
+  <div class="footer-paralax">
+    <div class="footer-first">
+     <div class="footer-container">
+       <h3 class="footer-h3">Inscrivez-vous ci-dessous pour début mises à jour</h3>
+    <p class="footer-p">Vous un client, grand ou petit, et que vous souhaitez participer à cette aventure, s'il vous plaît envoyez-nous un e-mail à support@StarMarket.com</p>            
+        <form class="form-inline form-subscribe">
+         <div class="form-group">
+             <input type="text" class="form-control" placeholder="Enter Your E-mail Address">
+     <button type="submit" class="btn btn-default">
+         <i class="fa fa-paper-plane-o"></i>
+             </button>
+         </div>             
+ </form>
+    </div>
+      </div>
+      
+<div class="footer-second">
+<div class="full-container">
+<div class="widget-container">
+ <h3 class="widget-title">Infomation</h3>
+ <div class="widget-body">
+<ul>
+<li><a class="location" href="#">Ista Hay salam 11000 Bettana</a></li>
+ <li><a class="phone" href="#">0200 410-369-3920</a></li>
+ <li><a class="email" href="#">geekrevo03@gmail.com</a></li>
+ <li><a class="mobile" href="#">Hotline: 090 999 8686</a></li>
+</ul>
+ </div>
+</div>
+
+<div class="widget-container">
+ <h3 class="widget-title">COMPAGNIE</h3>
+ <div class="widget-body">
+     <ul>
+         <li><a href="#">à propos de nous</a></li>
+         <li><a href="#">Témoignages</a></li>
+         <li><a href="#">Programme d'affiliation</a></li>
+         <li><a href="#">Terms &amp; Conditions</a></li>
+         <li><a href="#">Contact Us</a></li>
+     </ul>
+ </div>
+</div>
+
+<div class="widget-container">
+ <h3 class="widget-title">mon compte</h3>
+ <div class="widget-body">
+     <ul>
+         <li><a href="#">Mes Ordres</a></li>
+<li><a href="#">Mon bordereaux de crédit</a></li>
+<li><a href="#">Mes adresses</a></li>
+<li><a href="#">Mon Info personnelles</a></li>
+         <li><a href="#">Réductions</a></li>
+     </ul>
+ </div>
+</div>
+
+
+<div class="widget-container">
+ <h3 class="widget-title">AIDER</h3>
+ <div class="widget-body">
+     <ul>
+         <li><a href="#">Payments &amp; My Vouchers</a></li>
+         <li><a href="#">Cartes enregistrées</a></li>
+         <li><a href="#">Livraison gratuite</a></li>
+         <li><a href="#">Annulation &amp; Returns</a></li>
+         <li><a href="#">FAQ &amp; Aider Online</a></li>
+     </ul>
+ </div>
+</div>
+</div>
+<div class="footer-bottom">
+<hr/ class="line">
+<div class="footer-copyright">
+Copyright © 2016 Star Market. All Rights Reserved. Designed by: Ramdane Adam <i class="fa fa-smile-o"></i>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+    <!-------------------
+Preload Page
+--------------------->
+    
+    <section class="load_overlow">
+      <div class="sk-cube-grid">
+  <div class="sk-cube sk-cube1"></div>
+  <div class="sk-cube sk-cube2"></div>
+  <div class="sk-cube sk-cube3"></div>
+  <div class="sk-cube sk-cube4"></div>
+  <div class="sk-cube sk-cube5"></div>
+  <div class="sk-cube sk-cube6"></div>
+  <div class="sk-cube sk-cube7"></div>
+  <div class="sk-cube sk-cube8"></div>
+  <div class="sk-cube sk-cube9"></div>
+</div>
+    </section>
+    
+    
+    
+  </body>
+</html>

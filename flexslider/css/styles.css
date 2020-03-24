@@ -1,0 +1,46 @@
+
+
+/* ==========================================================================
+.testimonial-slider
+========================================================================== */
+.testimonial-slider {
+    background: url(../../img/demo1.jpg) no-repeat center center;
+    background-size: cover;
+    height:450px;
+    position: relative;
+    top: 450px;
+    
+}
+  .testimonial-slider .avatar {
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    background-color: #fff;
+  margin-bottom: 25px
+}
+
+    .testimonial-slider .avatar img {
+      width: 82px;
+      height: auto; }
+
+
+
+  .testimonial-slider p {
+    color: #ACB1B4;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+ font-weight: 300;
+    font-style: italic;
+  position: relative;
+      top: 9px;
+}
+
+.avatr
+{
+    position: relative;
+    bottom: 20px;
+}

@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8"/>
+      <title>Login Page</title>
+      
+      <!-- declaration du bebliothique -->
+      <link rel="icon" href="img/logo-sq1.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+     <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="StyleSheet/header.css"/>
+      <link rel="stylesheet" href="StyleSheet/tabs.css"/>
+      
+    <script type="text/javascript">
+        
+     (function()
+      {
+        var str1 = "be happy",
+            str2 ="php whith mysql",
+            str3="heloo world",
+            i =0;
+        var tab = [str1,str2,str3];
+        var ch = document.getElementById("container-head");
+            setInterval(function()
+                      {
+            setTimeout(function animation()
+                       {    
+            ch.innerHTML = tab[i];
+        //  $(".container-head").html(tab[i]); 
+          
+            },700);
+                 if(i<tab.length)
+                    i++;
+                   else
+                     i=0; 
+                       },3000);
+     }());
+    </script>  
+      
+      
+      
+  </head>
+    
+<body>
+    
+<header>
+     <nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-brand" href="#"><img id="logo" src="img/logo.PNG" width="120px" /></a>
+    </div>
+    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a><i class="fa fa-search"></i></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#"> Mode</a></li>
+        <li><a href="#">Numérique</a></li>
+        <li><a href="#">Meubles</a></li>
+       <li> <a href="#"> Artisanat traditionnel</a></li>
+      </ul>
+         <ul class="nav navbar-nav" id="carte">
+          <li><a href="#">Login |</a></li>
+          <li><a href="#">Carte /$0.00 <i class="fa fa-shopping-cart" style="font-size:20px;color;color:#3396BB"></i></a></li>
+ 
+        </ul>
+    </div>
+    </div>
+  </div>
+ </nav>
+    <center> <div id="container-head">
+      hello world
+        </div> </center>
+    <div class="img-header"></div>
+</header>
+    
+<section class="contact">
+   <h4> <a href="">Home &nbsp;</a> > &nbsp; Contact </h4>    
+    <div class="container">
+      <div class="info">
+        <h3>Informtion</h3>  
+         <hr class="contact-lign" />
+          <p> Please Read FaQ Before Send Us Message</p>
+          <ul class="faQ">
+            <li>
+                <div class="faQ-lign"></div>
+            <p> whate are the delivery charge for orders from the online shop  </p>
+                <div class="faQ-lign"></div>
+            </li>
+             <li>
+            <p> whate are the delivery charge for orders from the online shop  </p>
+                <div class="faQ-lign"></div>
+            </li>
+                <li>
+            <p> whate are the delivery charge for orders from the online shop  </p>
+                <div class="faQ-lign"></div>
+            </li>
+          </ul>
+      </div>
+    </div>
+</section>    
+    
+</body>
